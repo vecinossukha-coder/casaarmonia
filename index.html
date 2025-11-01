@@ -1,10 +1,202 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa en Venta - Casa Armonía</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Hello World casaarmonia.live</h1>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Casa Armonía</h1>
+            <nav class="nav">
+                <a href="#inicio">Inicio</a>
+                <a href="#informacion">Información</a>
+                <a href="#galeria">Galería</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="hero-overlay">
+            <div class="hero-content">
+                <h1 class="hero-title">Tu Casa Ideal Te Está Esperando</h1>
+                <p class="hero-subtitle">Descubre el hogar de tus sueños en una ubicación privilegiada</p>
+                <a href="#contacto" class="btn btn-primary">Agendar Visita</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Información General -->
+    <section class="info-section" id="informacion">
+        <div class="container">
+            <h2 class="section-title">Información General</h2>
+            <div class="info-grid">
+                <div class="info-card">
+                    <div class="info-icon">🏠</div>
+                    <h3>Tipo de Propiedad</h3>
+                    <p>Casa Residencial</p>
+                </div>
+                <div class="info-card">
+                    <div class="info-icon">📐</div>
+                    <h3>Superficie</h3>
+                    <p>XXX m² de construcción</p>
+                </div>
+                <div class="info-card">
+                    <div class="info-icon">🛏️</div>
+                    <h3>Recámaras</h3>
+                    <p>2 Recámaras amplias</p>
+                </div>
+                <div class="info-card">
+                    <div class="info-icon">🚿</div>
+                    <h3>Baños</h3>
+                    <p>X Baños completos</p>
+                </div>
+                <div class="info-card">
+                    <div class="info-icon">🚗</div>
+                    <h3>Estacionamiento</h3>
+                    <p>X Espacios</p>
+                </div>
+                <div class="info-card">
+                    <div class="info-icon">💰</div>
+                    <h3>Precio</h3>
+                    <p>Consultar</p>
+                </div>
+            </div>
+
+            <!-- Características Destacadas -->
+            <div class="features">
+                <h3 class="features-title">Características Destacadas</h3>
+                <ul class="features-list">
+                    <li>✓ Cocina moderna totalmente equipada</li>
+                    <li>✓ Recámara principal con baño completo</li>
+                    <li>✓ Terraza amplia con excelente iluminación</li>
+                    <li>✓ Ubicación privilegiada</li>
+                    <li>✓ Excelente estado de conservación</li>
+                    <li>✓ Lista para habitar</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galerías -->
+    <section class="gallery-section" id="galeria">
+        <div class="container">
+            <h2 class="section-title">Galería de Fotos</h2>
+
+            <!-- Fachada -->
+            <div class="gallery-container">
+                <h3 class="gallery-title">Fachada</h3>
+                <div class="gallery-grid" id="gallery-fachada">
+                    <!-- Las imágenes se cargarán dinámicamente con JavaScript -->
+                </div>
+            </div>
+
+            <!-- Cocina -->
+            <div class="gallery-container">
+                <h3 class="gallery-title">Cocina</h3>
+                <div class="gallery-grid" id="gallery-cocina">
+                    <!-- Las imágenes se cargarán dinámicamente con JavaScript -->
+                </div>
+            </div>
+
+            <!-- Recámara Principal -->
+            <div class="gallery-container">
+                <h3 class="gallery-title">Recámara Principal</h3>
+                <div class="gallery-grid" id="gallery-recamara-principal">
+                    <!-- Las imágenes se cargarán dinámicamente con JavaScript -->
+                </div>
+            </div>
+
+            <!-- Recámara de Visita -->
+            <div class="gallery-container">
+                <h3 class="gallery-title">Recámara de Visita</h3>
+                <div class="gallery-grid" id="gallery-recamara-visita">
+                    <!-- Las imágenes se cargarán dinámicamente con JavaScript -->
+                </div>
+            </div>
+
+            <!-- Terraza -->
+            <div class="gallery-container">
+                <h3 class="gallery-title">Terraza</h3>
+                <div class="gallery-grid" id="gallery-terraza">
+                    <!-- Las imágenes se cargarán dinámicamente con JavaScript -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section class="contact-section" id="contacto">
+        <div class="container">
+            <h2 class="section-title">Contacto</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>¿Interesado en esta propiedad?</h3>
+                    <p>Contáctanos para agendar una visita o resolver tus dudas.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-icon">📱</span>
+                            <div>
+                                <strong>Teléfono</strong>
+                                <p>XXX-XXX-XXXX</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">✉️</span>
+                            <div>
+                                <strong>Email</strong>
+                                <p>contacto@casaarmonia.live</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📍</span>
+                            <div>
+                                <strong>Ubicación</strong>
+                                <p>Disponible al contactar</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Tu email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="telefono" name="telefono" placeholder="Tu teléfono" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="mensaje" name="mensaje" rows="5" placeholder="Mensaje o consulta" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Casa Armonía. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div class="lightbox-caption" id="lightbox-caption"></div>
+        <a class="lightbox-prev">&#10094;</a>
+        <a class="lightbox-next">&#10095;</a>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
